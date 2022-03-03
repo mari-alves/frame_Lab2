@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta content="xxxxxxx" name="Mariana Alves">
+    <meta content="xxxxxxxxxxx" name="Web design">
+    <meta content="xxxxxxxxxxxxxx" name="Frameworks">
+
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome-free/css/all.css">
+
+    <!-- estilos próprios -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>CSS Frameworks (Bootstrap, Semantic UI, Materialize)</title>
+
+
+
+
+<body class="bg-dark" data-spy="scroll" data-target=".navbar" data-offset="120">
+
+<nav class="navbar navbar-expand-lg fosco_muito_escuro navbar-dark fixed-bottom px-5 py-3">
+
+    <a class="navbar-brand tamanho" href="index.html"><img src="imgs/Frameworks.svg" alt="logo"/></a>
+
+    <ul class="navbar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link" href="#section1">DEFINIÇÕES</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#section2">BOOTSTRAP</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#section3">SEMANTIC UI</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#section4">MATERIALIZE</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#section5">CONCLUSÃO</a>
+        </li>
+    </ul>
+</nav>
+
+<main class="container-fluid container-xl bg-light">
+
+    <section class="row" id="section1">
+        <article class="col-8 p-5 laranja">
+            <h2 class="text-white text-uppercase font-weight-light">Qual a melhor <span class="font-weight-bold text-dark">framework</span></h2>
+        </article>
+        <article class="col-4 p-3 bg-dark text-right align-self-end">
+            <p class="small text-white pr-4">Escrito por: Mariana Alves</p>
+        </article>
+
+        <article class="col-12 text-dark px-5 pt-5 pb-2">
+            <h5 class="text-uppercase">O que é uma framework?</h5>
+        </article>
+        <article class="col-12 border px-5 py-2">
+            <p>Mas, afinal uma <span class="font-weight-bold">Framework</span> é uma <span class="font-weight-bold">Library</span>. Tem código que podemos reutilizar. Certo?</p>
+        </article>
+        <article class="col-12 px-5 py-3 cinza">
+            <p>Vamos lá explicar melhor! Sim são códigos escritos por outra pessoa que ajudam a não <span class="font-italic">"inventarmos a roda"</span> e assim permitem poupar tempo na resolução de problemas comuns. Mas há diferenças. Explora os exemplos:
+            </p>
+        </article>
+        <!-- Tabs -->
+        <article class="col-12">
+            <ul class="nav nav-tabs nav-justified  pt-5 px-4" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="tab-home-tab" data-toggle="tab" href="#tab-home" role="tab" aria-controls="tab-home" aria-selected="true">Framework</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tab-profile-tab" data-toggle="tab" href="#tab-profile" role="tab" aria-controls="tab-profile" aria-selected="false">Library</a>
+                </li>
+            </ul>
+            <!-- Framework -->
+            <div class="tab-content" id="tab-tabContent">
+                <div class="tab-pane fade show active" id="tab-home" role="tabpanel">
+                    <div class="row altura casa">
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-6 align-self-center fosco_azul_escuro">
+                            <h4 class="pt-2">Framework</h4>
+                            <p class="fosco_azul_escuro p-3">Tal como construíres uma casa modelo. Já existem plantas que são feitas com base na maioria das necessidades de determinadas famílias. O empreiteiro e o arquitecto controlam e vão dizer o que pode ser feito ou não a nível de alterações. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Library -->
+                <div class="tab-pane fade" id="tab-profile" role="tabpanel">
+                    <div class="row altura ikea">
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-6 align-self-center fosco_azul_escuro">
+                            <h4 class="pt-2">Library</h4>
+                            <p class="fosco_azul_escuro p-3">Imagina que uma Library é como ir ao Ikea. Sim, tem aqueles bolos de canela muito bons, mas vamos nos concentrar no essencial! Tu já tens uma casa, mas precisas de ajuda com algumas peças. Não te apetece fazer um candeeiro do zero. Vais lá e escolhes o que fica melhor na tua casa. Tu controlas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-12 px-5 py-5 cinza">
+            <h5 class="text-uppercase mb-4">Resumindo:</h5>
+            <p class="mb-3"><span class="font-weight-bold">Framework</span> tenta adivinhar o que vais precisar, por isso é tão importante saberes se queres usar uma. E aliar essa escolha ao projeto que tens em mãos!</p>
+            <p><span class="font-weight-bold">Library</span> é chamada onde e quando precisares.</p>
+        </article>
+        <article class="col-12">
+            <h5 class="text-uppercase pt-5 pb-2 text-center">Devemos usar frameworks?</h5>
+            <p class="pb-5 px-5">Convém haver experiência em front-end antes de se utilizar. Porque para se resolver um problema de compatibilidade é preciso esse conhecimento.</p>
+        </article>
+        <article class="col-md-6 p-2 p-sm-5 text-lg-center border_laranja_tp">
+            <span class="fas fa-thumbs-up fa-2x mb-3"></span>
+            <h5 class="text-center">Prós</h5>
+            <ul class="text-center mt-4">
+                <li>Aumenta a eficiência</li>
+                <li>Facilita as repetições de tarefas</li>
+                <li>Arquivos modularizados</li>
+                <li>Solução para os problemas CSS comuns</li>
+                <li>Ajuda no trabalho em grupo</li>
+            </ul>
+        </article>
+        <article class="col-md-6 p-2 p-sm-5 text-lg-center border_laranja border_laranja_bt">
+            <span class="fas fa-thumbs-down fa-2x mb-3"></span>
+            <h5 class="text-center">Contras</h5>
+            <ul class="text-center mt-4">
+                <li>Pode minimizar o conhecimento da linguagem</li>
+                <li>Inflexibilidade na personalização acrescida</li>
+                <li>Geralmente o site fica mais pesado</li>
+            </ul>
+        </article>
+        <article class="col-12 mt-3 p-5">
+            <p>Para ajudar-te neste processo de escolha vamos analisar 3 frameworks de CSS muito populares: </p>
+        </article>
+    </section>
+
+
+    <!-- Section 2 -->
+    <section id="section2" class="bg-white text-dark px-5 row">
+        <article class="col-12">
+            <a href="https://getbootstrap.com/"><h2>Bootstrap
+            <img class="img-fluid w-25 ml-3" src="imgs/bootstrap-stack.png"/>
+            </h2></a>
+        </article>
+        <article class="col-12">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0 text-center text-md-left">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span class="fas fa-info pr-2"></span>Intro
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="mb-2">Vai na <span class="font-weight-bold">versão 5</span> que foi lançada a 16 de Junho de 2020</p>
+                        <p class="mb-2">Originalmente desenvolvido para o Twitter, chamado de Twitter Blueprint, desenvolvido por Mark Otto e Jacó Thornton com o objectivo de incentivar a consistência através de ferramentas internas.</p>
+                        <p>Foi renomeado de Bootstrap, e lançado como um projeto de código aberto em 19 de agosto de 2011.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0 text-center text-md-left">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="fas fa-anchor pr-2"></span>Links úteis
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+
+                        <a class="" href="https://getbootstrap.com/docs/4.4/layout/grid/"><img class="icone_tam" src="imgs/grid.svg"/> Vê o sistema de grelha de 12 colunas</a>
+
+                        <a class="d-block espaco" href="https://codepen.io/ycohio/pen/pXRLrO"><img class="icone_tam" src="imgs/tap.svg"/>Kitchen Sink todos os elementos da versão 4.2</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0 text-center text-md-left">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span class="fas fa-thumbs-up pr-2"></span>Prós
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul class="lista">
+                            <li><span class="font-weight-bold">Simplicidade de uso</span>, mesmo para um iniciante;</li>
+                            <li>Filosofia de <span class="font-weight-bold">design responsive</span> e <span class="font-weight-bold">mobile-first</span>;</li>
+                            <li><span class="font-weight-bold">Compatibilidade</span> com todos os <span class="font-weight-bold">browsers</span> recentes;</li>
+                            <li><span class="font-weight-bold">Poupança de tempo</span> com componentes reutilizáveis (barras de navegação, dropdowns...);</li>
+                            <li>Boa manutenção da plataforma com <span class="font-weight-bold">updates</span>.</li>
+                            <li>Classes para <span class="font-weight-bold">esconder e mostrar</span> elementos com <span class="font-weight-bold">facilidade</span>. </li>
+                            <li>Classes para <span class="font-weight-bold">acessibilidade</span>, para elementos como leitores de tela e navegação através do teclado.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0 text-center text-md-left">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <span class="fas fa-thumbs-down pr-2"></span>Contras
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul class="lista">
+                            <li><span class="font-weight-bold">Tamanho</span> grande do ficheiro gerado que pode afetar o <span class="font-weight-bold">tempo de resposta</span> do site;</li>
+                            <li><span class="font-weight-bold">Dependência do HTML</span> e edições necessárias o que pode complicar</li>
+                            <li>Todos os <span class="font-weight-bold">sites parecem iguais</span>. Este é o preço a pagar pelo facto de ser fácil de usar. Para diversificar temos que fazer os nossos próprios estilos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0 text-center text-md-left">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <span class="fas fa-chart-line pr-2"></span>Estatísticas
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        <h5 class="mb-2">2019</h5>
+                        <p class="mb-2">CSS developers que usaram o Bootstrap e gostariam de voltar a usar</p>
+                        <div class="progress altura2rem">
+                            <div class="progress-bar text-white lead bg-dark valor45">45%</div>
+                        </div>
+                        <p><i class="fab fa-github fa-2x mt-3 mr-3"></i>Github <span class="font-weight-bold">28.6k</span> stars, <span class="font-weight-bold">5.8k</span> forks, and <span class="font-weight-bold">984 contributors.</span></p>
+
+                        <a href="https://2019.stateofcss.com/technologies/css-frameworks/"><p><i class="fas fa-plus-circle fa-2x mt-3 mr-3"></i> Saber mais</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0 text-center text-md-left">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <span class="fas fa-bullhorn pr-2"></span>Empresas
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        <p class="mb-2">Algumas empresas que usam o Bootstrap</p>
+                        <div class="text-center text-md-left">
+                            <a href="https://twitter.com/explore"><img class="icone_tam" src="imgs/Twitter_logo_2012.svg.png"/></a>
+
+                            <a class="dir" href="https://www.spotify.com/pt/"><img class="icone_spotify" src="imgs/Spotify-Logo.png"/></a>
+
+                            <a class="" href="https://www.walmart.com"><img class="icone_wall" src="imgs/Walmart-Logo-2.png"/></a>
+
+                            <a class="d-none d-md-inline" href="https://www.udemy.com/"><img class="icone_wall" src="imgs/udemy.png"/></a>
+
+                            <a class="d-none d-md-inline" href="https://www.mint.com/"><img class="icone_mint" src="imgs/mint.png"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </article>
+    </section>
+
+
+    <section id="section3" class="bg-white text-dark px-5 py-5">
+        <article class="col-12">
+            <a href="https://semantic-ui.com/" ><h2>Semantic UI
+                <img class="img-fluid semantic_ui ml-3" src="imgs/semantic-ui.svg"/>
+            </h2></a>
+        </article>
+            <article class="col-12">
+                <div id="accordion2">
+                    <div class="card">
+                        <div class="card-header" id="heading2One">
+                            <h5 class="mb-0 text-center text-md-left">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2One" aria-expanded="true" aria-controls="collapse2One">
+                                    <span class="fas fa-info pr-2"></span>Intro
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapse2One" class="collapse show" aria-labelledby="heading2One" data-parent="#accordion2">
+                            <div class="card-body">
+                                <p class="mb-2">Vai na <span class="font-weight-bold">versão 2.4.2</span> que foi lançada a 13 de Novembro de 2016</p>
+                                <p class="mb-2">Desenvolvida por Jack Lukic. Ele é um full-stack developer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading2Two">
+                            <h5 class="mb-0 text-center text-md-left">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2Two" aria-expanded="false" aria-controls="collapse2Two">
+                                    <span class="fas fa-anchor pr-2"></span>Links úteis
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse2Two" class="collapse" aria-labelledby="heading2Two" data-parent="#accordion2">
+                            <div class="card-body">
+
+                                <a class="" href="https://semantic-ui.com/collections/grid.html#device-visibility"><img class="icone_tam" src="imgs/grid.svg"/> Vê o sistema de grelha de 16 colunas</a>
+
+                                <a class="d-block espaco" href="https://codepen.io/garuse/pen/bBRaoR"><img class="icone_tam" src="imgs/tap.svg"/>Kitchen Sink todos os elementos</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading2Three">
+                            <h5 class="mb-0 text-center text-md-left">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2Three" aria-expanded="false" aria-controls="collapse2Three">
+                                    <span class="fas fa-thumbs-up pr-2"></span>Prós
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse2Three" class="collapse" aria-labelledby="heading2Three" data-parent="#accordion2">
+                            <div class="card-body">
+                                <ul class="lista">
+                                    <li>De muito<span class="font-weight-bold"> fácil</span> utilização;</li>
+                                    <li><span class="font-weight-bold"> Enorme variedade</span> de temas e personalização;</li>
+                                    <li>Curva de aprendizagem menor. Demoras menos tempo, já que as<span class="font-weight-bold"> classes têm nomes</span> bastante explicativos e<span class="font-weight-bold"> intuitivos</span>;</li>
+                                    <li>Comunidade<span class="font-weight-bold"> apaixonada</span> e bastante envolvida.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading2Four">
+                            <h5 class="mb-0 text-center text-md-left">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2Four" aria-expanded="false" aria-controls="collapse2Four">
+                                    <span class="fas fa-thumbs-down pr-2"></span>Contras
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse2Four" class="collapse" aria-labelledby="heading2Four" data-parent="#accordion2">
+                            <div class="card-body">
+                                <ul class="lista">
+                                    <li><span class="font-weight-bold"> Problema</span> de compatibilidade com <span class="font-weight-bold"> IE7</span>;</li>
+                                    <li><span class="font-weight-bold">Poucas atualizações</span></li>
+                                    <li><span class="font-weight-bold">Falta de responsividade</span> é causa de preocupação</li>
+                                    <li>Usa customização por<span class="font-weight-bold"> Javascript</span> e isso pode <span class="font-weight-bold"> dificultar</span> o trabalho.</li>
+                                    <li><span class="font-weight-bold">Packages</span> usadas são <span class="font-weight-bold"> muito maiores </span>em tamanho do que as do Bootstrap, por exemplo. E podes só querer usar um módulo específico;</li>
+                                    <li><span class="font-weight-bold">Comunidade</span> de apoio ainda em <span class="font-weight-bold">número reduzido</span>;</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading2Five">
+                            <h5 class="mb-0 text-center text-md-left">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2Five" aria-expanded="false" aria-controls="collapse2Five">
+                                    <span class="fas fa-chart-line pr-2"></span>Estatísticas
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse2Five" class="collapse" aria-labelledby="heading2Five" data-parent="#accordion2">
+                            <div class="card-body">
+                                <h5 class="mb-2">2019</h5>
+                                <p class="mb-2">CSS developers que usaram o Semantic UI e gostariam de voltar a usar</p>
+                                <div class="progress altura2rem">
+                                    <div class="progress-bar text-white lead bg-dark valor9">9.2%</div>
+                                </div>
+                                <p><i class="fab fa-github fa-2x mt-3 mr-3"></i>Github <span class="font-weight-bold">47.8k</span> stars, <span class="font-weight-bold">5k</span> forks, and <span class="font-weight-bold">190 contributors.</span></p>
+                                <a href="https://2019.stateofcss.com/technologies/css-frameworks/"><p><i class="fas fa-plus-circle fa-2x mt-3 mr-3"></i> Saber mais</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="heading2Six">
+                            <h5 class="mb-0 text-center text-md-left">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2Six" aria-expanded="false" aria-controls="collapse2Six">
+                                    <span class="fas fa-bullhorn pr-2"></span>Empresas
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse2Six" class="collapse" aria-labelledby="heading2Six" data-parent="#accordion2">
+                            <div class="card-body">
+                                <p class="mb-2">Algumas empresas que usam Semantic UI</p>
+                                <div class="text-center text-md-left">
+                                    <a href="https://www.snapchat.com/l/en-gb/"><img class="icone_tam" src="imgs/snapshat.jpg"/></a>
+
+                                    <a href="https://www.accenture.com/us-en"><img class="icone_spotify" src="imgs/accenture-logo.jpg"/></a>
+
+                                    <a href="https://kmong.com"><img class="icone_wall" src="imgs/kmong.png"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </article>
+    </section>
+
+
+    <section id="section4" class="bg-white text-dark px-5 py-5">
+        <article class="col-12">
+            <a href="https://materializecss.com/"><h2>Materialize
+                <img class="img-fluid w-25" src="imgs/materialize.png"/>
+            </h2></a>
+        </article>
+        </article>
+        <article class="col-12">
+            <div id="accordion3">
+                <div class="card">
+                    <div class="card-header" id="heading3One">
+                        <h5 class="mb-0 text-center text-md-left">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3One" aria-expanded="true" aria-controls="collapse3One">
+                                <span class="fas fa-info pr-2"></span>Intro
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse3One" class="collapse show" aria-labelledby="heading3One" data-parent="#accordion3">
+                        <div class="card-body">
+                            <p class="mb-2">Vai na <span class="font-weight-bold">versão 1.0.0</span> que foi lançada a 9 de Setembro de 2018</p>
+                            <p class="mb-2">CSS framework que implementa o <a href="https://material.io/design">Material Design</a> da Google.</p>
+                            <p>Foi criada por 4 estudantes na universidade de Carnegie Melon</p>
+                            <p>O foco do Materialize é o visual.</p>
+                            <p>Comportamento físico (movimentos em duas e três dimensões), luz, espaço, etc., para que se obtenha uma uniformidade de reações dos elementos entre as plataformas, ou seja, um botão, por exemplo, tenha o mesmo comportamento em diferentes navegadores e mesmo em diferentes sistemas operacionais, como Windows e Google Android.</p>
+                            <p>Os elementos do website podem ter profundidade e se mover de uma forma específica.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading3Two">
+                        <h5 class="mb-0 text-center text-md-left">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3Two" aria-expanded="false" aria-controls="collapse3Two">
+                                <span class="fas fa-anchor pr-2"></span>Links úteis
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3Two" class="collapse" aria-labelledby="heading3Two" data-parent="#accordion3">
+                        <div class="card-body">
+
+                            <a class="" href="https://materializecss.com/grid.html"><img class="icone_tam" src="imgs/grid.svg"/> Vê o sistema de grelha de 12 colunas</a>
+
+                            <a class="d-block espaco" href="https://www.codeply.com/go/0XQk5neaJu "><img class="icone_tam" src="imgs/tap.svg"/>Kitchen Sink de todos os elementos</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading3Three">
+                        <h5 class="mb-0 text-center text-md-left">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3Three" aria-expanded="false" aria-controls="collapse3Three">
+                                <span class="fas fa-thumbs-up pr-2"></span>Prós
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3Three" class="collapse" aria-labelledby="heading3Three" data-parent="#accordion3">
+                        <div class="card-body">
+                            <ul class="lista">
+                                <li>O visual, que permite a criação, com pouco esforço, de <span class="font-weight-bold"> websites extremamente interessantes</span>;</li>
+                                <li><span class="font-weight-bold">Redução</span> substancial do tempo de<span class="font-weight-bold"> implementação</span>;</li>
+                                <li><span class="font-weight-bold">Documentação</span> cuidadosa e detalhada;</li>
+                                <li>Preocupação especial com a <span class="font-weight-bold"> experiência do utilizador</span> (UX user experience);</li>
+                                <li><span class="font-weight-bold">Poucos bugs</span> encontrados até o momento, o que reforça a qualidade do projeto;</li>
+                                <li>Existência de<span class="font-weight-bold">recursos à medida</span> (cards, flow texts, hoverable items);</li>
+                                <li>Grande seleção <span class="font-weight-bold">Plugins em javascript</span> que são <span class="font-weight-bold"> gratuitos</span> (Parallax, Modals, Drop-dows...);</li>
+                                <li><span class="font-weight-bold">Grid</span> muito<span class="font-weight-bold"> similar à do Bootstrap</span>,mas com um intervalo</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading3Four">
+                        <h5 class="mb-0 text-center text-md-left">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3Four" aria-expanded="false" aria-controls="collapse3Four">
+                                <span class="fas fa-thumbs-down pr-2"></span>Contras
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3Four" class="collapse" aria-labelledby="heading3Four" data-parent="#accordion3">
+                        <div class="card-body">
+                            <ul class="lista">
+                                <li><span class="font-weight-bold">Complexos componentes Javascript</span>. É difícil mexer quando somos novatos;</li>
+                                <li><span class="font-weight-bold">Não</span> há tanto<span class="font-weight-bold"> suporte</span> da<span class="font-weight-bold"> comunidade</span>;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading3Five">
+                        <h5 class="mb-0 text-center text-md-left">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3Five" aria-expanded="false" aria-controls="collapse3Five">
+                                <span class="fas fa-chart-line pr-2"></span>Estatísticas
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3Five" class="collapse" aria-labelledby="heading3Five" data-parent="#accordion3">
+                        <div class="card-body">
+                            <h5 class="mb-2">2019</h5>
+                            <p class="mb-2">CSS developers que usaram o Materialize e gostariam de voltar a usar</p>
+                            <div class="progress altura2rem">
+                                <div class="progress-bar text-white lead bg-dark valor17">17.1%</div>
+                            </div>
+                            <p><i class="fab fa-github fa-2x mt-3 mr-3"></i>Github <span class="font-weight-bold">37.4k </span> stars, <span class="font-weight-bold">4.8k</span> forks, and <span class="font-weight-bold">250 contributors.</span></p>
+                            <a href="https://2019.stateofcss.com/technologies/css-frameworks/"><p><i class="fas fa-plus-circle fa-2x mt-3 mr-3"></i> Saber mais</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading3Six">
+                        <h5 class="mb-0 text-center text-md-left">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3Six" aria-expanded="false" aria-controls="collapse3Six">
+                                <span class="fas fa-bullhorn pr-2"></span>Empresas
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3Six" class="collapse" aria-labelledby="heading3Six" data-parent="#accordion3">
+                        <div class="card-body">
+                            <p class="mb-2">Algumas empresas que usam Semantic UI</p>
+                            <div class="text-center text-md-left">
+                                <a href="https://www.dronedeploy.com/"><img class="icone_spotify" src="imgs/drone_deploy.png"/></a>
+
+                                <a href="https://wparena.com/"><img class="icone_spotify" src="imgs/WP.png"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <section id="section5" class="bg-white text-dark px-5 padding_extra">
+        <h5 class="text-uppercase text-center xtpt-5 pb-2">Conclusões Finais</h5>
+        <div class="text-center">
+
+        <img class="img-fluid w-50" src="imgs/bootstrap-stack.png"/>
+
+        </div>
+
+        <p class="lead">A ferramenta correta envolve um grande número de variáveis e depende das especificidades de cada projecto.</p>
+        <p class="lead mt-2">O Bootstrap já existe há mais tempo e mantém-se robusta e atualizada. Vence o concurso de popularidade.</p>
+        <p class="lead mt-2">Mas existem muitas alternativas interessantes que estão a desenvolver-se, além das que falei anteriormente, também quero destacar a evolução e posição de mercado da <a href="https://get.foundation/">Foundation</a> e <a href="https://tailwindcss.com/">Tailwind</a>.</p>
+        <p class="lead mt-2">Inspira-te nestas e quem sabe um dia tens uma com o teu nome! A fazer tudo o que sempre quiseste. O mundo está nas tuas mãos!</p>
+
+        <article class="col-12">
+            <button data-target="#modal" data-toggle="modal" type="button"
+                    class="modal-open btn btn-block laranja text-white w-100 mx-auto mt-5">Fontes utilizadas
+            </button>
+            <div class="modal fade" id="modal">
+                <div class="modal-dialog modal-md modal-dialog-centered">
+                    <div class="modal-content bg-white text-dark">
+                        <div class="modal-header bg-white">
+                            <h5 class="modal-title text-dark mx-auto text-uppercase">Fontes</h5>
+                        </div>
+                        <div class="modal-body text-left">
+                            <ul>
+                                <li><a href="https://2019.stateofcss.com/technologies/css-frameworks/">https://2019.stateofcss.com/technologies/css-frameworks/</a></li>
+                                <li><a href="https://stackshare.io/stackups/bootstrap-vs-semantic-ui">https://stackshare.io/stackups/bootstrap-vs-semantic-ui</a></li>
+                                <li><a href="https://materializecss.com/">https://materializecss.com/</a></li>
+                                <li><a href="https://material.io/design">https://material.io/design</a></li>
+                                <li><a href="https://stackshare.io/stackups/bootstrap-vs-semantic-ui">https://stackshare.io/stackups/bootstrap-vs-semantic-ui</a></li>
+                                <li><a href="https://getbootstrap.com/">https://getbootstrap.com/</a></li>
+                                <li><a href="https://www.codeply.com/go/0XQk5neaJu">https://www.codeply.com/go/0XQk5neaJu</a></li>
+                                <li><a href="https://codepen.io/garuse/pen/bBRaoR ">https://codepen.io/garuse/pen/bBRaoR </a></li>
+                                <li><a href="https://codepen.io/ycohio/pen/pXRLrO">https://codepen.io/ycohio/pen/pXRLrO</a></li>
+                                <li><a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/">https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/</a></li>
+                                <li><a href="https://www.slant.co/versus/504/521/~bootstrap_vs_materialize">https://www.slant.co/versus/504/521/~bootstrap_vs_materialize</a></li>
+                                <li><a href="https://semantic-ui.com/">https://semantic-ui.com/</a></li>
+                                <li><a href="https://dzone.com/articles/11-best-css-frameworks-to-look-forward-in-2020">https://dzone.com/articles/11-best-css-frameworks-to-look-forward-in-2020</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+</main>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+.tamanho {
+    width: 150px;
+}
+
+p {
+    margin: 0;
+}
+
+.ikea {
+    background-image: url("../imgs/ikea.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.casa {
+    background-image: url("../imgs/planta.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.laranja {
+    background-color: rgba(175,92,2,0.9);
+}
+
+.cinza {
+    background-color: #E5E9EC;
+}
+
+.fosco_muito_escuro {
+    background-color: rgba(22,13,9,0.9);
+}
+
+.fosco_azul_escuro {
+    background-color: rgba(117,160,186,0.7);
+}
+
+main a {
+    background-color: white;
+    color: #0f6674;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.semantic_ui {
+    width: 15%;
+}
+
+.altura {
+    height: 400px;
+}
+
+.nav-link {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #E5E9EC;
+}
+
+
+.nav-tabs .nav-link.active, .nav-tabs .show>.nav-link {
+    background-color: #0f6674;
+    color: white;
+}
+
+
+.nav-tabs:hover .nav-link:hover {
+    background-color: #0f6674;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    line-height: 2rem;
+}
+
+.lista {
+    list-style-type: circle;
+    padding-left: 1rem;
+}
+
+
+.card-header:hover {
+    background-color: #E5E9EC;
+}
+
+.icone_tam {
+    width: 50px;
+}
+
+.icone_spotify {
+    height: 50px;
+}
+
+.icone_wall {
+    height: 80px;
+}
+
+.icone_mint {
+    height: 40px;
+}
+
+.espaco {
+    margin-top: 1.5rem;
+}
+
+.dir {
+    margin-left: 2rem;
+}
+
+.card-body {
+    padding-left: 2rem;
+}
+
+.btn {
+    color: rgba(175,92,2,0.9);
+    text-decoration: none;
+}
+
+.btn-link {
+    color: rgba(175,92,2,0.9);
+    text-decoration: none!important;
+}
+
+.btn-block:hover {
+    background-color: black;
+}
+
+.btn-link:hover {
+    color: #0f6674;
+    text-decoration: none;
+}
+
+.border_laranja {
+    border-top: 2px dotted rgba(175,92,2,0.9);
+}
+
+.valor45 {
+    width: 45%;
+}
+
+.valor9 {
+    width: 9%;
+}
+
+.valor17 {
+    width:17%;
+}
+
+
+.altura2rem {
+    height: 2rem;
+}
+
+.padding_extra {
+    padding-bottom: 70%;
+}
+
+
+
+
+
+/* Small devices (576px --- 767px ####################################################*/
+@media screen and (min-width: 576px) {
+    .padding_extra {
+        padding-bottom: 55%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .border_laranja {
+        border-top: none;
+    }
+
+    .border_laranja_bt {
+        border-bottom: 2px dotted rgba(175,92,2,0.9);
+        border-left: 2px dotted rgba(175,92,2,0.9);
+    }
+
+    .border_laranja_tp {
+        border-top: 2px dotted rgba(175,92,2,0.9);
+    }
+
+    .padding_extra {
+        padding-bottom: 43%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .padding_extra {
+        padding-bottom: 13%;
+    }
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}

@@ -1,4 +1,4 @@
-# Frame_Lab2
+# frame_Lab2
 
 Individual project for LAB2
 
